@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px grey;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem;
+    border-bottom: 1rem;
+}
+
+button{
+    width: 95%;
+    padding: 0.2rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+}
